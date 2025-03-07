@@ -7,16 +7,22 @@
     class="relative block px-2 py-2 transition hover:text-blue-500 dark:hover:text-blue-500"
     >Sobre mi</a
   >
-  <a
-    href="#experience"
-    class="relative block px-2 py-2 transition hover:text-blue-500 dark:hover:text-blue-500"
-    >Experiencia</a
+
+<div
+    class="section relative block px-2 py-2 transition hover:text-blue-500 dark:hover:text-blue-500"
+    id="experiencia1"
   >
-  <a
-    href="#projects"
-    class="relative block px-2 py-2 transition hover:text-blue-500 dark:hover:text-blue-500"
-    >Proyectos</a
+    <button type="button" (click)="goToSection('experiencia2')">Experiencia</button>
+  </div>
+
+
+  <div
+    class="section relative block px-2 py-2 transition hover:text-blue-500 dark:hover:text-blue-500"
+    id="proyectos1"
   >
+    <button type="button" (click)="goToSection('proyectos2')">Proyectos</button>
+  </div>
+
   <div class="relative ml-1 mr-1">
     <button
       id="theme-toggle-btn"

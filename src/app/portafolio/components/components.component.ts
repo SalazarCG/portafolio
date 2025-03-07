@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./components.component.css'],
 })
 export class ComponentsComponent implements OnInit {
+
+  public goToSection(section: string): void {
+    const element = document.getElementById(section);
+    if (element) element.scrollIntoView({ behavior: 'smooth' });
+  }
+
   isMenuVisible: boolean = false;
 
   ngOnInit(): void {
