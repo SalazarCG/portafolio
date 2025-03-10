@@ -3,6 +3,7 @@ import { ExperienciaLaboralPageComponent } from '../experiencia-laboral-page/exp
 import { ProyectosPageComponent } from '../proyectos-page/proyectos-page.component';
 import { ComponentsComponent } from "../../components/components.component";
 import { ImageModule } from 'primeng/image';
+import { SobreMiPageComponent } from '../sobre-mi-page/sobre-mi-page.component';
 
 @Component({
   selector: 'app-dashboard-page',
@@ -11,6 +12,7 @@ import { ImageModule } from 'primeng/image';
     ProyectosPageComponent,
     ComponentsComponent,
     ImageModule,
+    SobreMiPageComponent,
   ],
   templateUrl: './dashboard-page.component.html',
   styleUrl: './dashboard-page.component.css',
