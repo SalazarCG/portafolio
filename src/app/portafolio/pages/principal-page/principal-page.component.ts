@@ -6,7 +6,7 @@ import { ImageModule } from 'primeng/image';
 import { SobreMiPageComponent } from '../sobre-mi-page/sobre-mi-page.component';
 
 @Component({
-  selector: 'app-dashboard-page',
+  selector: 'app-principal-page',
   imports: [
     ExperienciaLaboralPageComponent,
     ProyectosPageComponent,
@@ -14,7 +14,7 @@ import { SobreMiPageComponent } from '../sobre-mi-page/sobre-mi-page.component';
     ImageModule,
     SobreMiPageComponent,
   ],
-  templateUrl: './dashboard-page.component.html',
-  styleUrl: './dashboard-page.component.css',
+  templateUrl: './principal-page.component.html',
+  styleUrl: './principal-page.component.css',
 })
-export default class DashboardPageComponent {}
+export default class PrincipalPageComponent {}

@@ -2,12 +2,12 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: 'dashboard',
-    loadComponent: () => import('./portafolio/pages/dashboard-page/dashboard-page.component')
+    path: 'principal',
+    loadComponent: () =>
+      import('./portafolio/pages/principal-page/principal-page.component'),
   },
   {
     path: '**',
-    redirectTo: 'dashboard'
-  }
-  
+    redirectTo: 'principal',
+  },
 ];
