@@ -1,26 +1,24 @@
-
 <div class="flex flex-col gap-y-16 mb-8">
-
   <h2 class="flex items-center mb-6 mt-6 text-4xl font-bold gap-x-3">
-      <svg
-        class="size-7"
-        xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
-        viewBox="0 0 24 24"
-        stroke-width="2"
-        stroke="currentColor"
-        fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-        <path d="M7 8l-4 4l4 4"></path>
-        <path d="M17 8l4 4l-4 4"></path>
-        <path d="M14 4l-4 16"></path>
-      </svg>
-      Proyectos
-    </h2>
+    <svg
+      class="size-7"
+      xmlns="http://www.w3.org/2000/svg"
+      width="32"
+      height="32"
+      viewBox="0 0 24 24"
+      stroke-width="2"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+      <path d="M7 8l-4 4l4 4"></path>
+      <path d="M17 8l4 4l-4 4"></path>
+      <path d="M14 4l-4 16"></path>
+    </svg>
+    Proyectos
+  </h2>
 
   <article
     class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-6 md:space-y-0"
@@ -57,7 +55,7 @@
 
           <li>
             <span
-              class=" gap-x-2 rounded-full text-base m-2 flex align-items-center justify-content-center text-justify bg-[#003159] text-white py-1 px-4"
+              class="gap-x-2 rounded-full text-base m-2 flex align-items-center justify-content-center text-justify bg-[#003159] text-white py-1 px-4"
             >
               <img
                 class="kotlin pt-1"
@@ -75,15 +73,37 @@
           Aplicación sobre la gestión de equipos de fútbol. Desarrollada en
           <strong>Android</strong> con <strong>Jetpack Compose</strong> y
           <strong>Kotlin</strong>. La aplicación permite la creación de equipos,
-          jugadores y partidos. También te permite gestionar a tus jugadores valorando sus estadísticas.
+          jugadores y partidos. También se pueden realizar búsquedas y filtrados
+          sobre los equipos y jugadores.
         </p>
-        <footer class="flex items-end justify-start mt-4 gap-x-4">
-          <a href="" role="link" class="inline-flex bg-gray-100 text-gray-800 border-gray-300 items-center justify-center
-           gap-2 px-3 py-2 space-x-2 text-base transition  border text-md hover:bg-gray-800
-            hover:border-gray-900 group max-w-fit rounded-xl hover:text-black focus:outline-none
-             focus-visible:outline-none
-             focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"> CODE </a>
-        </footer>
+        <nav class="flex-wrap gap-4 mt-6">
+          <a
+            class="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
+            href=""
+            target="video futbolManagerPro"
+            role="link"
+          >
+            <svg
+              class="size-6"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14 6H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1Zm7 11-6-2V9l6-2v10Z"
+              />
+            </svg>
+
+            Video
+          </a>
+        </nav>
       </div>
     </div>
   </article>
@@ -106,15 +126,13 @@
       </div>
     </div>
 
-    <div class="w-full md:w-1/2 md:max-w-lg ">
-      <h3 class="ml-6 text-3xl font-medium">
-        La liga de la Justicia
-      </h3>
+    <div class="w-full md:w-1/2 md:max-w-lg">
+      <h3 class="ml-6 text-3xl font-medium">La liga de la Justicia</h3>
       <div class="ml-4 flex flex-wrap mt-2">
         <ul class="flex flex-row mb-2 gap-x-2">
           <li>
             <span
-              class=" gap-x-2 rounded-full text-base m-2 flex align-items-center justify-content-center bg-[#003159] text-white py-1 px-4"
+              class="gap-x-2 rounded-full text-base m-2 flex align-items-center justify-content-center bg-[#003159] text-white py-1 px-4"
             >
               <img
                 class="angular pt-1"
@@ -127,14 +145,14 @@
 
           <li>
             <span
-              class=" gap-x-2 rounded-full text-base m-2 flex align-items-center justify-content-center text-justify bg-[#003159] text-white py-1 px-4"
+              class="gap-x-2 rounded-full text-base m-2 flex align-items-center justify-content-center text-justify bg-[#003159] text-white py-1 px-4"
             >
               <img
-                class="kotlin pt-1"
-                src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png"
-                alt="Kotlin"
+                class="material pt-1"
+                src="https://codegen.studio/.netlify/images?url=_astro%2Fangular-material.D5FN1OB4.png"
+                alt="material"
               />
-              Kotlin</span
+              Material</span
             >
           </li>
         </ul>
@@ -142,20 +160,89 @@
         <p
           class="mt-2 text-lg [&>strong]:text-yellow-600 [&>strong]:font-semibold"
         >
-          Aplicación Web  de gestión de equipos de fútbol. Desarrollada en
-          <strong>Android</strong> con <strong>Jetpack Compose</strong> y
-          <strong>Kotlin</strong>. La aplicación permite la creación de equipos,
-          jugadores y partidos. También se pueden realizar búsquedas y filtrados
-          sobre los equipos y jugadores.
+          Mi primera aplicación Web sobre superheroes de la liga de la justicia.
+          Desarrollada en
+          <strong>Angular</strong> con <strong> Material y PrimeFlex</strong>.
+          Podrás añadir, actualizar y eliminar todos los superheroes de tus
+          comics favoritos de DC y Marvel.
         </p>
-        <footer class="flex items-end justify-start mt-4 gap-x-4">
-          <a href="" role="link" class="inline-flex bg-gray-100 text-gray-800 border-gray-300 items-center justify-center
-           gap-2 px-3 py-2 space-x-2 text-base transition  border text-md hover:bg-gray-800
-            hover:border-gray-900 group max-w-fit rounded-xl hover:text-black focus:outline-none focus-visible:outline-none
-             focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"> CODE </a>
-        </footer>
+
+        <nav class="flex-wrap gap-4 mt-6">
+          <a
+            class="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
+            href="https://github.com/SalazarCG/HeroesApp"
+            target="mensaje"
+            role="link"
+          >
+            <svg
+              class="size-6"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 3v4a1 1 0 0 1-1 1H5m5 4-2 2 2 2m4-4 2 2-2 2m5-12v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z"
+              />
+            </svg>
+            CODE
+          </a>
+
+          <a
+            class="inline-flex items-center justify-center gap-2 px-4 py-1 ml-6 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
+            href="#"
+            (click)="toggleVideoVisibility()"
+            role="button"
+          >
+            <svg
+              class="size-6"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14 6H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1Zm7 11-6-2V9l6-2v10Z"
+              />
+            </svg>
+            Video
+          </a>
+        </nav>
+
+        <div
+          *ngIf="isVideoVisible"
+          class="fixed inset-0 flex items-center justify-center opacity-25"
+        >
+          <div class="relative min-w-full max-w-4xl aspect-w-16 aspect-h-9">
+            <iframe
+              class="w-full h-full rounded-lg shadow-lg"
+              src="https://www.youtube.com/embed/INlmQqxLWWg?si=E6aRDb1EZYtIOfUt"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <button
+              (click)="toggleVideoVisibility()"
+              class="absolute top-0 right-0 mt-2 mr-2 text-white text-2xl"
+            >
+              &times;
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </article>
 </div>
-
