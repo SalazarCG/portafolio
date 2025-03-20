@@ -9,7 +9,6 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-principal-page',
   imports: [
-    RouterOutlet,
     ExperienciaLaboralPageComponent,
     ProyectosPageComponent,
     ComponentsComponent,
