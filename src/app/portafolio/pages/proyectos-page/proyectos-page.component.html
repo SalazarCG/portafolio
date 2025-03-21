@@ -1,4 +1,3 @@
-
 <div class="flex flex-col gap-y-16 mb-8">
   <h2 class="flex items-center mb-6 mt-6 text-4xl font-bold gap-x-3">
     <svg
@@ -79,10 +78,9 @@
         </p>
         <nav class="flex-wrap gap-4 mt-6">
           <a
-            class="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
-            href="./pages/video-futbolmanagerpro/video-futbolmanagerpro.component.html"
-            target="_blank"
+            routerLink="/futbol"
             role="button"
+            class="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
           >
             <svg
               class="size-6"
@@ -101,7 +99,6 @@
                 d="M14 6H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1Zm7 11-6-2V9l6-2v10Z"
               />
             </svg>
-
             Video
           </a>
         </nav>
@@ -197,8 +194,7 @@
 
           <a
             class="inline-flex items-center justify-center gap-2 px-4 py-1 ml-6 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-800 dark:border-gray-600 dark:text-white text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
-            href="#"
-            (click)="toggleVideoVisibility()"
+            routerLink="/laliga"
             role="button"
           >
             <svg
@@ -221,29 +217,6 @@
             Video
           </a>
         </nav>
-
-        <div
-          *ngIf="isVideoVisible"
-          class="fixed inset-0 flex items-center justify-center opacity-25"
-        >
-          <div class="relative min-w-full max-w-4xl aspect-w-16 aspect-h-9">
-            <iframe
-              class="w-full h-full rounded-lg shadow-lg"
-              src="https://www.youtube.com/embed/INlmQqxLWWg?si=E6aRDb1EZYtIOfUt"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <button
-              (click)="toggleVideoVisibility()"
-              class="absolute top-0 right-0 mt-2 mr-2 text-white text-2xl"
-            >
-              &times;
-
-            </button>
-          </div>
-        </div>
       </div>
     </div>
   </article>
