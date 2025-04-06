@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-components',
   templateUrl: './components-backend.component.html',
+  imports: [RouterModule],
   styleUrls: ['./components-backend.component.css'],
 })
-export class ComponentsComponent implements OnInit {
-
+export class ComponentsBackendComponent implements OnInit {
   public goToSection(section: string): void {
     const element = document.getElementById(section);
     if (element) element.scrollIntoView({ behavior: 'smooth' });
