@@ -14,10 +14,10 @@ export const routes: Routes = [
       ),
   },
   {
-    path: 'laliga',
+    path: 'proyectos',
     loadComponent: () =>
       import(
-        './portafolio/pages/proyectos-page/pages/video-ligadelajusticia/video-ligadelajusticia.component'
+        './portafolio/pages/proyectos-page/pages/proyectos-backend/proyectos-backend.component'
       ),
   },
   {
